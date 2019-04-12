@@ -1,7 +1,7 @@
 # Spam-Classifier
 Dataset: http://archive.ics.uci.edu/ml/datasets/Spambase
 
-Data Preprocessing: Segregated the dataset into two: (spam & not spam), generated two sets of train and test sets and then combined them to form a single set of train and test. This was done in order to ensure equal distribution of examples in the train and test sets and avoid the problem of overfitting(bias) and underfitting(variance).
+Data Preprocessing: Segregated the dataset into two: (spam & not spam), generated two sets of train and test sets and then combined them to form a single set of train and test sets. This was done in order to ensure equal distribution of examples in the train and test sets and avoid the problem of overfitting(High Variance) and underfitting(bias).
 
 Modelling: Sci-kit Learn library was used for modelling. 
   Tried two models:
